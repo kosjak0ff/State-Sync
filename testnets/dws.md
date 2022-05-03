@@ -1,6 +1,6 @@
 # DWS
 
-
+<mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>
 
 stop the node and reset (this command is for dewebd launched as a service)
 

@@ -20,8 +20,8 @@
 [ki-chain.md](state-sync/ki-chain.md)
 {% endcontent-ref %}
 
-{% content-ref url="state-sync/lum.md" %}
-[lum.md](state-sync/lum.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="state-sync/rizon.md" %}

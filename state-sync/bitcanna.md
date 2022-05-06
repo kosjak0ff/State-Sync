@@ -8,7 +8,7 @@ stop the node and reset (this command is for bcnad launched as a service)
 sudo systemctl stop bcnad && bcnad unsafe-reset-all
 ```
 
-set variables to bonded.zone RPC
+set variable to bonded.zone RPC
 
 ```bash
 RPC="http://rpc.bonded.zone:25557"

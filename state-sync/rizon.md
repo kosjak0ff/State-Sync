@@ -1,3 +1,7 @@
+---
+description: titan-1
+---
+
 # Rizon
 
 
@@ -8,7 +12,7 @@ stop the node and reset (this command is for rizond launched as a service)
 sudo systemctl stop rizond && rizond unsafe-reset-all
 ```
 
-set variables to bonded.zone RPC
+set variable to bonded.zone RPC
 
 ```bash
 RPC="http://rpc.bonded.zone:26657"

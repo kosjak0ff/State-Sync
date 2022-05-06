@@ -1,3 +1,7 @@
+---
+description: desmos-mainnet
+---
+
 # Desmos
 
 
@@ -8,7 +12,7 @@ stop the node and reset (this command is for desmosd launched as a service)
 sudo systemctl stop desmosd && desmosd unsafe-reset-all
 ```
 
-set variables to bonded.zone RPC
+set variable to bonded.zone RPC
 
 ```bash
 RPC="http://rpc.bonded.zone:27757"

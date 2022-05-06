@@ -1,3 +1,7 @@
+---
+description: lum-network-1
+---
+
 # Lum
 
 
@@ -8,7 +12,7 @@ stop the node and reset (this command is for lumd launched as a service)
 sudo systemctl stop lumd && lumd unsafe-reset-all
 ```
 
-set variables to bonded.zone RPC
+set variable to bonded.zone RPC
 
 ```bash
 RPC="http://rpc.bonded.zone:29957"

@@ -1,3 +1,7 @@
+---
+description: bitsong-2b
+---
+
 # Bitsong
 
 
@@ -8,7 +12,7 @@ stop the node and reset (this command is for bitsongd launched as a service)
 sudo systemctl stop bitsongd && bitsongd unsafe-reset-all
 ```
 
-set variables to bonded.zone RPC
+set variable to bonded.zone RPC
 
 ```bash
 RPC="http://rpc.bonded.zone:20057"

@@ -1,3 +1,7 @@
+---
+description: kichain-2
+---
+
 # Ki Chain
 
 
@@ -8,7 +12,7 @@ stop the node and reset (this command is for kid launched as a service)
 sudo systemctl stop kid && kid unsafe-reset-all
 ```
 
-set variables to bonded.zone RPC
+set variable to bonded.zone RPC
 
 ```bash
 RPC="http://rpc.bonded.zone:28857"

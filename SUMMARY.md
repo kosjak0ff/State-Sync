@@ -9,3 +9,4 @@
   * [Rizon](state-sync/rizon.md)
 * [Testnets](testnets/README.md)
   * [DWS](testnets/dws.md)
+  * [Quicksilver](testnets/quicksilver.md)

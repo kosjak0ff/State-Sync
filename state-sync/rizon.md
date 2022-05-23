@@ -15,7 +15,7 @@ sudo systemctl stop rizond && rizond unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc.bonded.zone:26657"
+RPC="http://65.21.143.79:20957"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -41,7 +41,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="094e7262a4c0c282ba4f1da57b19ebfb59ff0747@rpc.bonded.zone:26656"
+peers="c94dace97052fd9628329debc8654a89b0ce4c59@65.21.143.79:20956"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.rizon/config/config.toml
 ```
 

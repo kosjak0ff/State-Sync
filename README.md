@@ -1,29 +1,29 @@
-# ⛓ State-Sync
+# ⛓ Mainnets
 
 ## Here you can sync your node with State-Sync
 
-#### powered by [DVS](https://validators.network)
+#### powered by [DVS](https://validators.network/)
 
-{% content-ref url="state-sync/bitcanna.md" %}
-[bitcanna.md](state-sync/bitcanna.md)
+{% content-ref url="mainnets/bitcanna.md" %}
+[bitcanna.md](mainnets/bitcanna.md)
 {% endcontent-ref %}
 
-{% content-ref url="state-sync/bitsong.md" %}
-[bitsong.md](state-sync/bitsong.md)
+{% content-ref url="mainnets/bitsong.md" %}
+[bitsong.md](mainnets/bitsong.md)
 {% endcontent-ref %}
 
-{% content-ref url="state-sync/desmos.md" %}
-[desmos.md](state-sync/desmos.md)
+{% content-ref url="mainnets/desmos.md" %}
+[desmos.md](mainnets/desmos.md)
 {% endcontent-ref %}
 
-{% content-ref url="state-sync/ki-chain.md" %}
-[ki-chain.md](state-sync/ki-chain.md)
+{% content-ref url="mainnets/ki-chain.md" %}
+[ki-chain.md](mainnets/ki-chain.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="state-sync/rizon.md" %}
-[rizon.md](state-sync/rizon.md)
+{% content-ref url="mainnets/rizon.md" %}
+[rizon.md](mainnets/rizon.md)
 {% endcontent-ref %}

@@ -1,11 +1,11 @@
 # Table of contents
 
-* [⛓ State-Sync](README.md)
-  * [Bitcanna](state-sync/bitcanna.md)
-  * [Bitsong](state-sync/bitsong.md)
-  * [Desmos](state-sync/desmos.md)
-  * [Ki Chain](state-sync/ki-chain.md)
-  * [Rizon](state-sync/rizon.md)
-* [Testnets](testnets/README.md)
+* [⛓ Mainnets](README.md)
+  * [Bitcanna](mainnets/bitcanna.md)
+  * [Bitsong](mainnets/bitsong.md)
+  * [Desmos](mainnets/desmos.md)
+  * [Ki Chain](mainnets/ki-chain.md)
+  * [Rizon](mainnets/rizon.md)
+* [⛓ Testnets](testnets/README.md)
   * [DWS](testnets/dws.md)
   * [Quicksilver](testnets/quicksilver.md)

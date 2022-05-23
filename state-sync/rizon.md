@@ -4,7 +4,7 @@ description: titan-1
 
 # Rizon
 
-
+_For rizond version <mark style="color:red;">v0.3.0</mark>_
 
 stop the node and reset (this command is for rizond launched as a service)
 

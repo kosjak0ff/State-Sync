@@ -20,10 +20,6 @@
 [ki-chain.md](mainnets/ki-chain.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="mainnets/rizon.md" %}
 [rizon.md](mainnets/rizon.md)
 {% endcontent-ref %}

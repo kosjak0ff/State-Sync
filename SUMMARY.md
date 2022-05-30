@@ -7,5 +7,6 @@
   * [Ki Chain](mainnets/ki-chain.md)
   * [Rizon](mainnets/rizon.md)
 * [⛓ Testnets](testnets/README.md)
+  * [Defund](testnets/defund.md)
   * [DWS](testnets/dws.md)
   * [Quicksilver](testnets/quicksilver.md)

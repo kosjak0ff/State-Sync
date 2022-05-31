@@ -13,7 +13,7 @@ sudo systemctl stop quicksilverd && quicksilverd unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20557"
+RPC="http://65.21.143.79:20557"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH

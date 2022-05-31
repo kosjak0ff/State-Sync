@@ -1,17 +1,19 @@
-# Bitcanna
+---
+description: uptick_7776-1
+---
 
+# Uptick
 
-
-stop the node and reset (this command is for bcnad launched as a service)
+stop the node and reset (this command is for uptickd launched as a service)
 
 ```bash
-sudo systemctl stop bcnad && bcnad unsafe-reset-all
+sudo systemctl stop uptickd && uptickd unsafe-reset-all
 ```
 
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc.bonded.zone:25557"
+RPC="http://rpc2.bonded.zone:21257"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -37,8 +39,8 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="6e019366b29ebef44cc98ef17ce7c231780cc5a6@rpc.bonded.zone:25556"
-sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
+peers="8615ada7165b4f7d32f5a99d2c272eec563f7971@rpc2.bonded.zone:21256"
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.uptickd/config/config.toml
 ```
 
 this is one command
@@ -48,17 +50,17 @@ sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
 s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$RPC,$RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
-s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.bcna/config/config.toml
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.uptickd/config/config.toml
 ```
 
-start the node (this command is for bcnad launched as a service)
+start the node (this command is for uptickd launched as a service)
 
 ```bash
-sudo systemctl restart bcnad
+sudo systemctl restart uptickd
 ```
 
 check logs
 
 ```bash
-sudo journalctl -u bcnad -f --no-hostname -o cat
+sudo journalctl -u uptickd -f --no-hostname -o cat
 ```

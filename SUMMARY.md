@@ -13,3 +13,4 @@
   * [DWS](testnets/dws.md)
   * [Quicksilver](testnets/quicksilver.md)
   * [Sei](testnets/sei.md)
+  * [Uptick](testnets/uptick.md)

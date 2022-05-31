@@ -15,7 +15,7 @@ sudo systemctl stop dewebd && dewebd unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20357"
+RPC="http://65.21.143.79:20357"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH

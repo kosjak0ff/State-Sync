@@ -1,19 +1,21 @@
 ---
-description: defund-private-1
+description: halo-testnet-001
 ---
 
-# Defund
+# Aura
 
-stop the node and reset (this command is for defundd launched as a service)
+<mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to download updated wasm folder**</mark>
+
+stop the node and reset (this command is for aurad launched as a service)
 
 ```bash
-sudo systemctl stop defundd && defundd unsafe-reset-all
+sudo systemctl stop aurad && aurad unsafe-reset-all
 ```
 
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20657"
+RPC="http://rpc2.bonded.zone:20857"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -39,8 +41,8 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="decba6e9907011541d56ada922b8da325a5885c2@65.21.143.79:20656"
-sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.defund/config/config.toml
+peers="2a6fb72b992a7dfff3c2f7f11d169148ddeb9387@rpc2.bonded.zone:20856"
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.aura/config/config.toml
 ```
 
 this is one command
@@ -50,17 +52,17 @@ sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
 s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$RPC,$RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
-s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.defund/config/config.toml
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.aura/config/config.toml
 ```
 
-start the node (this command is for defundd launched as a service)
+start the node (this command is for aurad launched as a service)
 
 ```bash
-sudo systemctl restart defundd
+sudo systemctl restart aurad
 ```
 
 check logs
 
 ```bash
-sudo journalctl -u defundd -f --no-hostname -o cat
+sudo journalctl -u aurad -f --no-hostname -o cat
 ```

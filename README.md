@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # ⛓ Mainnets
 
 ## Here you can sync your node with State-Sync

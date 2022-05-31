@@ -13,7 +13,7 @@ sudo systemctl stop defundd && defundd unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://65.21.143.79:20657"
+RPC="http://rpc2.bonded.zone:20657"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH

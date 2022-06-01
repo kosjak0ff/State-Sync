@@ -41,7 +41,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="4bbff265ff2f14db7ed3804449a0d53b244716d7@65.21.143.79:20356"
+peers="4bbff265ff2f14db7ed3804449a0d53b244716d7@rpc2.bonded.zone:20356"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.deweb/config/config.toml
 ```
 

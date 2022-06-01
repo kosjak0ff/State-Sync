@@ -39,7 +39,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="cf8dbe09fca0cba81ed3b3b46243fabd5c29c164@65.21.143.79:20556"
+peers="cf8dbe09fca0cba81ed3b3b46243fabd5c29c164@rpc2.bonded.zone:20556"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.quicksilverd/config/config.toml
 ```
 

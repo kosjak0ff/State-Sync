@@ -39,7 +39,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="decba6e9907011541d56ada922b8da325a5885c2@65.21.143.79:20656"
+peers="decba6e9907011541d56ada922b8da325a5885c2@rpc2.bonded.zone:20656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.defund/config/config.toml
 ```
 

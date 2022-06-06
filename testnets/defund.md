@@ -10,6 +10,12 @@ stop the node and reset (this command is for defundd launched as a service)
 sudo systemctl stop defundd && defundd unsafe-reset-all
 ```
 
+<mark style="background-color:red;">if you get error, try</mark>_<mark style="background-color:red;">:</mark>_
+
+_<mark style="background-color:red;">defundd tendermint unsafe-reset-all</mark>_
+
+_<mark style="background-color:red;"></mark>_
+
 set variable to bonded.zone RPC
 
 ```bash

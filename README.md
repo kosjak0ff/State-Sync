@@ -28,6 +28,10 @@ coverY: 0
 [galaxy.md](mainnets/galaxy.md)
 {% endcontent-ref %}
 
+{% content-ref url="mainnets/ki-chain.md" %}
+[ki-chain.md](mainnets/ki-chain.md)
+{% endcontent-ref %}
+
 {% content-ref url="mainnets/rizon.md" %}
 [rizon.md](mainnets/rizon.md)
 {% endcontent-ref %}

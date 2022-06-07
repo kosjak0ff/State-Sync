@@ -4,7 +4,7 @@ description: titan-1
 
 # Rizon
 
-for _version <mark style="color:red;">v0.3.0</mark>_
+_For rizond version <mark style="color:red;">v0.3.0</mark>_
 
 stop the node and reset (this command is for rizond launched as a service)
 
@@ -41,7 +41,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="c94dace97052fd9628329debc8654a89b0ce4c59@rpc2.bonded.zone:20956"
+peers="c94dace97052fd9628329debc8654a89b0ce4c59@65.21.143.79:20956"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.rizon/config/config.toml
 ```
 

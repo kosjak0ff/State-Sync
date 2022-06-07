@@ -4,7 +4,7 @@ description: bitcanna-1
 
 # Bitcanna
 
-_for version <mark style="color:red;">v.1.3.1</mark>_
+
 
 stop the node and reset (this command is for bcnad launched as a service)
 
@@ -15,7 +15,7 @@ sudo systemctl stop bcnad && bcnad unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20157"
+RPC="http://rpc.bonded.zone:25557"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -41,7 +41,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="95dc343933ff76c052c089420494de33e1ce5660@rpc2.bonded.zone:20156"
+peers="6e019366b29ebef44cc98ef17ce7c231780cc5a6@rpc.bonded.zone:25556"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
 ```
 

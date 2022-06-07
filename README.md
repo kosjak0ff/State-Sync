@@ -1,10 +1,11 @@
 ---
-coverY: 0
+cover: .gitbook/assets/digital_chains_newblog.png
+coverY: -28.80933852140079
 ---
 
 # ⛓ Mainnets
 
-## [Chronic Token](https://app.gitbook.com/s/mLaXrPDDRtBJtVYjHual/\~/changes/aiTQQVhyOFO6oP5GPWSu/mainnets/chronic-token)[Galaxy](https://app.gitbook.com/s/mLaXrPDDRtBJtVYjHual/\~/changes/aiTQQVhyOFO6oP5GPWSu/mainnets/galaxy)Here you can sync your node with State-Sync
+## Here you can sync your node with State-Sync
 
 #### powered by [DVS](https://validators.network/)
 
@@ -26,10 +27,6 @@ coverY: 0
 
 {% content-ref url="mainnets/galaxy.md" %}
 [galaxy.md](mainnets/galaxy.md)
-{% endcontent-ref %}
-
-{% content-ref url="mainnets/ki-chain.md" %}
-[ki-chain.md](mainnets/ki-chain.md)
 {% endcontent-ref %}
 
 {% content-ref url="mainnets/rizon.md" %}

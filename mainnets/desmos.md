@@ -4,7 +4,7 @@ description: desmos-mainnet
 
 # Desmos
 
-
+for _version <mark style="color:red;">v2.3.1</mark>_
 
 stop the node and reset (this command is for desmosd launched as a service)
 
@@ -15,7 +15,7 @@ sudo systemctl stop desmos && desmos unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc.bonded.zone:27757"
+RPC="http://rpc2.bonded.zone:20257"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -41,7 +41,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="092a89f7c6aac59868977a893f5260e747a3eb40@rpc.bonded.zone:27756"
+peers="a517c8638e6f5131ebd718dbcf97b2c0293898c8@rpc2.bonded.zone:20256"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.desmos/config/config.toml
 ```
 

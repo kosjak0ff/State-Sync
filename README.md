@@ -4,7 +4,7 @@ coverY: 0
 
 # ⛓ Mainnets
 
-## Here you can sync your node with State-Sync
+## [Chronic Token](https://app.gitbook.com/s/mLaXrPDDRtBJtVYjHual/\~/changes/aiTQQVhyOFO6oP5GPWSu/mainnets/chronic-token)[Galaxy](https://app.gitbook.com/s/mLaXrPDDRtBJtVYjHual/\~/changes/aiTQQVhyOFO6oP5GPWSu/mainnets/galaxy)Here you can sync your node with State-Sync
 
 #### powered by [DVS](https://validators.network/)
 
@@ -16,8 +16,16 @@ coverY: 0
 [bitsong.md](mainnets/bitsong.md)
 {% endcontent-ref %}
 
+{% content-ref url="mainnets/chronic-token.md" %}
+[chronic-token.md](mainnets/chronic-token.md)
+{% endcontent-ref %}
+
 {% content-ref url="mainnets/desmos.md" %}
 [desmos.md](mainnets/desmos.md)
+{% endcontent-ref %}
+
+{% content-ref url="mainnets/galaxy.md" %}
+[galaxy.md](mainnets/galaxy.md)
 {% endcontent-ref %}
 
 {% content-ref url="mainnets/ki-chain.md" %}

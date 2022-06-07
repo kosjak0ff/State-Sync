@@ -9,7 +9,7 @@ description: desmos-mainnet
 stop the node and reset (this command is for desmosd launched as a service)
 
 ```bash
-sudo systemctl stop desmosd && desmosd unsafe-reset-all
+sudo systemctl stop desmos && desmos unsafe-reset-all
 ```
 
 set variable to bonded.zone RPC
@@ -58,11 +58,11 @@ s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.desmos/config/config.toml
 start the node (this command is for desmosd launched as a service)
 
 ```bash
-sudo systemctl restart desmosd
+sudo systemctl restart desmos
 ```
 
 check logs
 
 ```bash
-sudo journalctl -u desmosd -f --no-hostname -o cat
+sudo journalctl -u desmos -f -o cat
 ```

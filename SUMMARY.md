@@ -6,7 +6,6 @@
   * [Chronic Token](mainnets/chronic-token.md)
   * [Desmos](mainnets/desmos.md)
   * [Galaxy](mainnets/galaxy.md)
-  * [Ki Chain](mainnets/ki-chain.md)
   * [Rizon](mainnets/rizon.md)
 * [⛓ Testnets](testnets/README.md)
   * [Aura](testnets/aura.md)

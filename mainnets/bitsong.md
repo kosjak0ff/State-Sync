@@ -4,7 +4,7 @@ description: bitsong-2b
 
 # Bitsong
 
-
+for _version <mark style="color:red;">v0.10.0</mark>_
 
 stop the node and reset (this command is for bitsongd launched as a service)
 
@@ -15,7 +15,7 @@ sudo systemctl stop bitsongd && bitsongd unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc.bonded.zone:20057"
+RPC="http://rpc2.bonded.zone:20457"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -41,7 +41,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="acf520affe948c8717ea27a8c8038d441f2133fb@rpc.bonded.zone:20056"
+peers="ac5927cae764c565552edb8056c1d7975fe5d23f@rpc2.bonded.zone:20456"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bitsongd/config/config.toml
 ```
 

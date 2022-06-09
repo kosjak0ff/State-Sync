@@ -1,5 +1,7 @@
 ---
 description: deweb-testnet-1
+cover: https://pbs.twimg.com/profile_banners/1474503581025943560/1640384235/1500x500
+coverY: -270.4280155642023
 ---
 
 # DWS

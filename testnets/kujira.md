@@ -1,5 +1,7 @@
 ---
 description: harpoon-3
+cover: https://pbs.twimg.com/profile_banners/1423685983841705985/1642107091/1500x500
+coverY: 0
 ---
 
 # Kujira

@@ -1,5 +1,7 @@
 ---
 description: galaxy-1
+cover: https://pbs.twimg.com/profile_banners/1499232957222952965/1646283528/1500x500
+coverY: 0
 ---
 
 # Galaxy

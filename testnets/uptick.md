@@ -1,5 +1,7 @@
 ---
 description: uptick_7776-1
+cover: https://pbs.twimg.com/profile_banners/1093830260599197696/1652392110/1500x500
+coverY: 0
 ---
 
 # Uptick

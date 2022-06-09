@@ -1,5 +1,7 @@
 ---
 description: halo-testnet-001
+cover: https://pbs.twimg.com/profile_banners/1455097087410900995/1653485314/1500x500
+coverY: 0
 ---
 
 # Aura

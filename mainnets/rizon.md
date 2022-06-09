@@ -1,5 +1,7 @@
 ---
 description: titan-1
+cover: https://pbs.twimg.com/profile_banners/890466481942675456/1649319780/1500x500
+coverY: 0
 ---
 
 # Rizon

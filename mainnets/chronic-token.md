@@ -1,5 +1,7 @@
 ---
 description: morocco-1
+cover: https://pbs.twimg.com/profile_banners/1412867039518244866/1634754375/1500x500
+coverY: 0
 ---
 
 # Chronic Token

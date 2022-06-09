@@ -1,5 +1,7 @@
 ---
 description: desmos-mainnet
+cover: https://pbs.twimg.com/profile_banners/1117333487390879744/1646197127/1500x500
+coverY: 0
 ---
 
 # Desmos

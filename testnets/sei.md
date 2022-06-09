@@ -1,10 +1,14 @@
 ---
-description: sei-testnet-1
+description: sei-testnet-2
+cover: https://pbs.twimg.com/profile_banners/1515104342906327045/1652587263/1500x500
+coverY: 0
 ---
 
 # Sei
 
 <mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to download updated wasm folder**</mark>
+
+_for version <mark style="color:red;">1.0.2beta</mark>_
 
 stop the node and reset (this command is for seid launched as a service)
 
@@ -41,7 +45,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="3547e9f19336a85533b4dd087165a13d5a9921f0@rpc2.bonded.zone:21156"
+peers="257af61598dd3ce190bd7da84c6bcfeb5cbe9a99@rpc2.bonded.zone:21156"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.sei-chain/config/config.toml
 ```
 

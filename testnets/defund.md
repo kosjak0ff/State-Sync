@@ -1,5 +1,7 @@
 ---
 description: defund-private-1
+cover: https://pbs.twimg.com/profile_banners/1460478547542302723/1641447358/1500x500
+coverY: 0
 ---
 
 # Defund

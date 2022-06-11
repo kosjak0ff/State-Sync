@@ -8,7 +8,7 @@ coverY: 0
 
 <mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to download updated wasm folder**</mark>
 
-_for version <mark style="color:red;">1.0.2beta</mark>_
+_for version_ 1.0.3beta
 
 stop the node and reset (this command is for seid launched as a service)
 

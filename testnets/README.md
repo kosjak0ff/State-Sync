@@ -4,7 +4,7 @@ coverY: 0
 
 # ⛓ Testnets
 
-## Here you can sync your node with State-Sync
+## [Paloma](https://app.gitbook.com/s/mLaXrPDDRtBJtVYjHual/\~/changes/WgCgdup5Z0eSsRWRtKqw/testnets/paloma)Here you can sync your node with State-Sync
 
 #### powered by [DVS](https://validators.network/)
 
@@ -26,6 +26,10 @@ coverY: 0
 
 {% content-ref url="kujira.md" %}
 [kujira.md](kujira.md)
+{% endcontent-ref %}
+
+{% content-ref url="paloma.md" %}
+[paloma.md](paloma.md)
 {% endcontent-ref %}
 
 {% content-ref url="quicksilver.md" %}

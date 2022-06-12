@@ -4,7 +4,7 @@ coverY: 0
 
 # ⛓ Testnets
 
-## [Paloma](https://app.gitbook.com/s/mLaXrPDDRtBJtVYjHual/\~/changes/WgCgdup5Z0eSsRWRtKqw/testnets/paloma)Here you can sync your node with State-Sync
+## Here you can sync your node with State-Sync
 
 #### powered by [DVS](https://validators.network/)
 

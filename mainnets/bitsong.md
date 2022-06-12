@@ -1,7 +1,7 @@
 ---
 description: bitsong-2b
 cover: https://pbs.twimg.com/profile_banners/949260226829660162/1643823516/1500x500
-coverY: 155.64202334630352
+coverY: 94.35797665369651
 ---
 
 # Bitsong

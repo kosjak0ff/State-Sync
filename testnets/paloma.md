@@ -1,5 +1,7 @@
 ---
 description: paloma
+cover: ../.gitbook/assets/photo_2022-05-03_22-34-27.jpg
+coverY: 0
 ---
 
 # Paloma

@@ -14,5 +14,6 @@
   * [DWS](testnets/dws.md)
   * [Kujira](testnets/kujira.md)
   * [Quicksilver](testnets/quicksilver.md)
+  * [Paloma](testnets/paloma.md)
   * [Sei](testnets/sei.md)
   * [Uptick](testnets/uptick.md)

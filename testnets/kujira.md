@@ -8,6 +8,8 @@ coverY: 0
 
 _for version <mark style="color:red;">v0.4.0</mark>_
 
+<mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to download updated wasm folder**</mark>
+
 stop the node and reset (this command is for kujirad launched as a service)
 
 ```bash

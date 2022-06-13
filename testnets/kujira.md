@@ -1,12 +1,12 @@
 ---
-description: harpoon-3
+description: harpoon-4
 cover: https://pbs.twimg.com/profile_banners/1423685983841705985/1642107091/1500x500
 coverY: 0
 ---
 
 # Kujira
 
-_for version <mark style="color:red;">v0.3.0</mark>_
+_for version <mark style="color:red;">v0.4.0</mark>_
 
 stop the node and reset (this command is for kujirad launched as a service)
 
@@ -47,7 +47,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="cbad757732b438a88c0ab635008bd297e1e84d111@rpc2.bonded.zone:21456"
+peers="17a34b4d19c66eb4c4e8eacd826f48ed02b20166@rpc2.bonded.zone:21456"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.kujira/config/config.toml
 ```
 

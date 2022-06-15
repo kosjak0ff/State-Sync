@@ -10,6 +10,7 @@
 * [⛓ Testnets](testnets/README.md)
   * [Aura](testnets/aura.md)
   * [Celestia](testnets/celestia.md)
+  * [Clan](testnets/clan.md)
   * [Defund](testnets/defund.md)
   * [DWS](testnets/dws.md)
   * [Kujira](testnets/kujira.md)

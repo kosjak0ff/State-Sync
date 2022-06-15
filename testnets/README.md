@@ -16,6 +16,10 @@ coverY: 0
 [celestia.md](celestia.md)
 {% endcontent-ref %}
 
+{% content-ref url="clan.md" %}
+[clan.md](clan.md)
+{% endcontent-ref %}
+
 {% content-ref url="defund.md" %}
 [defund.md](defund.md)
 {% endcontent-ref %}

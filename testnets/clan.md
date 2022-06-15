@@ -1,5 +1,7 @@
 ---
 description: playstation-2
+cover: https://pbs.twimg.com/profile_banners/1501114021344382979/1648557777/1500x500
+coverY: 0
 ---
 
 # Clan

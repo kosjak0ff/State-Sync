@@ -6,7 +6,7 @@ coverY: 0
 
 # Paloma
 
-_for version <mark style="color:red;">v0.1.0-alpha</mark>_
+_for version <mark style="color:red;">v0.2.1-prealpha</mark>_
 
 stop the node and reset (this command is for palomad launched as a service)
 
@@ -47,7 +47,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="1003cf3b68ddfd3a55bb20f5c6041c1efe2e52eb@rpc2.bonded.zone:21556"
+peers="80f022bf74759e811a3fc156fb63031c016d56f2@rpc2.bonded.zone:21556"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.paloma/config/config.toml
 ```
 

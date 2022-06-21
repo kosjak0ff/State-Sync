@@ -1,12 +1,12 @@
 ---
-description: paloma
+description: paloma-testnet-5
 cover: ../.gitbook/assets/photo_2022-05-03_22-34-27.jpg
 coverY: 0
 ---
 
 # Paloma
 
-_for version <mark style="color:red;">v0.2.1-prealpha</mark>_
+_for version <mark style="color:red;">v0.2.3-prealpha</mark>_
 
 stop the node and reset (this command is for palomad launched as a service)
 

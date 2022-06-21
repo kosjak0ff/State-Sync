@@ -47,7 +47,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="80f022bf74759e811a3fc156fb63031c016d56f2@rpc2.bonded.zone:21556"
+peers="cafeaa85246658628b68104314871367127f9ae2@rpc2.bonded.zone:21556"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.paloma/config/config.toml
 ```
 

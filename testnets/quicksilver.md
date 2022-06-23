@@ -1,10 +1,12 @@
 ---
-description: quicktest-3
+description: killerqueen-1
 cover: https://pbs.twimg.com/profile_banners/1471200836504199168/1643792144/1500x500
 coverY: -215.9533073929961
 ---
 
 # Quicksilver
+
+_for version <mark style="color:red;">v0.4.0</mark>_
 
 stop the node and reset (this command is for quicksilverd launched as a service)
 
@@ -41,7 +43,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="cf8dbe09fca0cba81ed3b3b46243fabd5c29c164@rpc2.bonded.zone:20556"
+peers="13efad5e98f92b7fa1a1a24a1fc3aae1e7c3321f@rpc2.bonded.zone:20556"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.quicksilverd/config/config.toml
 ```
 

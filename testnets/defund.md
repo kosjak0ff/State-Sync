@@ -21,7 +21,7 @@ _<mark style="background-color:red;"></mark>_
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20657"
+RPC="http://wisdom.bonded.zone:20157"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -47,7 +47,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="decba6e9907011541d56ada922b8da325a5885c2@rpc2.bonded.zone:20656"
+peers="decba6e9907011541d56ada922b8da325a5885c2@wisdom.bonded.zone:20156"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.defund/config/config.toml
 ```
 

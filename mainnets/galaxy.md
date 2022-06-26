@@ -17,7 +17,7 @@ sudo systemctl stop galaxyd && galaxyd unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://wisdom.bonded.zone:24057"
+RPC="http://rpc.bonded.zone:23357"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -43,7 +43,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="8e420f4e397da9a940abfcc09d5d542e06429836@wisdom.bonded.zone:24056"
+peers="92ade3e74c79ae04b819ea3a1a9e9ab16d60497b@rpc.bonded.zone:23356"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.galaxy/config/config.toml
 ```
 

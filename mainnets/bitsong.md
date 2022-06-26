@@ -17,7 +17,7 @@ sudo systemctl stop bitsongd && bitsongd unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20457"
+RPC="http://wisdom.bonded.zone:26957"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -43,7 +43,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="ac5927cae764c565552edb8056c1d7975fe5d23f@rpc2.bonded.zone:20456"
+peers="2af83a42fc643ddeeb5a1a10afc70fe0fa7e9201@wisdom.bonded.zone:26956"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bitsongd/config/config.toml
 ```
 

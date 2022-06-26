@@ -17,7 +17,7 @@ sudo systemctl stop desmos && desmos unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20257"
+RPC="http://wisdom.bonded.zone:20357"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -43,7 +43,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="a517c8638e6f5131ebd718dbcf97b2c0293898c8@rpc2.bonded.zone:20256"
+peers="db21dda1321c372d79533988356529eaa7bbaec7@wisdom.bonded.zone:20356"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.desmos/config/config.toml
 ```
 

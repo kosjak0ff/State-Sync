@@ -17,7 +17,7 @@ sudo systemctl stop bcnad && bcnad unsafe-reset-all
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://rpc2.bonded.zone:20157"
+RPC="http://wisdom.bonded.zone:20257"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -43,7 +43,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="95dc343933ff76c052c089420494de33e1ce5660@rpc2.bonded.zone:20156"
+peers="8d30fc066da3161ec6dc92d50d0c035364155e11@wisdom.bonded.zone:20256"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
 ```
 

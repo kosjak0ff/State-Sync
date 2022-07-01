@@ -8,13 +8,17 @@ coverY: 0
 
 <mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to download updated wasm folder**</mark>
 
-_for version_ 1.0.3beta
+_for version_ 1.0.5beta
 
 stop the node and reset (this command is for seid launched as a service)
 
 ```bash
 sudo systemctl stop seid && seid unsafe-reset-all
 ```
+
+<mark style="background-color:red;">if you get error, try:</mark>
+
+_<mark style="background-color:red;">seid tendermint unsafe-reset-all</mark>_
 
 set variable to bonded.zone RPC
 

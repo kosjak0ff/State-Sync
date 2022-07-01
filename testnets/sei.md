@@ -1,7 +1,7 @@
 ---
 description: sei-testnet-2
-cover: https://pbs.twimg.com/profile_banners/1515104342906327045/1652587263/1500x500
-coverY: 0
+cover: https://pbs.twimg.com/profile_banners/1515104342906327045/1655924054/1500x500
+coverY: 22.373540856031127
 ---
 
 # Sei

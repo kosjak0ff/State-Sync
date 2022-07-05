@@ -28,8 +28,8 @@ coverY: 0
 [dws.md](dws.md)
 {% endcontent-ref %}
 
-{% content-ref url="kujira.md" %}
-[kujira.md](kujira.md)
+{% content-ref url="ica.md" %}
+[ica.md](ica.md)
 {% endcontent-ref %}
 
 {% content-ref url="paloma.md" %}
@@ -42,6 +42,10 @@ coverY: 0
 
 {% content-ref url="sei.md" %}
 [sei.md](sei.md)
+{% endcontent-ref %}
+
+{% content-ref url="stride.md" %}
+[stride.md](stride.md)
 {% endcontent-ref %}
 
 {% content-ref url="uptick.md" %}

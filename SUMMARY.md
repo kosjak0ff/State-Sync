@@ -13,7 +13,7 @@
   * [Clan](testnets/clan.md)
   * [Defund](testnets/defund.md)
   * [DWS](testnets/dws.md)
-  * [Kujira](testnets/kujira.md)
+  * [Ica](testnets/ica.md)
   * [Paloma](testnets/paloma.md)
   * [Quicksilver](testnets/quicksilver.md)
   * [Sei](testnets/sei.md)

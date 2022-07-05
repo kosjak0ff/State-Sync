@@ -17,4 +17,5 @@
   * [Paloma](testnets/paloma.md)
   * [Quicksilver](testnets/quicksilver.md)
   * [Sei](testnets/sei.md)
+  * [Stride](testnets/stride.md)
   * [Uptick](testnets/uptick.md)

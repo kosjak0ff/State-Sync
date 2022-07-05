@@ -1,5 +1,7 @@
 ---
 description: STRIDE
+cover: https://pbs.twimg.com/profile_banners/1519990048497754113/1655747456/1500x500
+coverY: 105.05836575875486
 ---
 
 # Stride

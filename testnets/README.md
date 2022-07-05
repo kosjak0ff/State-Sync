@@ -44,10 +44,6 @@ coverY: 0
 [sei.md](sei.md)
 {% endcontent-ref %}
 
-{% content-ref url="stride.md" %}
-[stride.md](stride.md)
-{% endcontent-ref %}
-
 {% content-ref url="uptick.md" %}
 [uptick.md](uptick.md)
 {% endcontent-ref %}

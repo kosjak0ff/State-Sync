@@ -1,12 +1,12 @@
 ---
-description: paloma-testnet-5
+description: paloma-testnet-6
 cover: ../.gitbook/assets/photo_2022-05-03_22-34-27.jpg
 coverY: 0
 ---
 
 # Paloma
 
-_for version <mark style="color:red;">v0.2.3-prealpha</mark>_
+_for version <mark style="color:red;">v0.2.5-prealpha</mark>_
 
 stop the node and reset (this command is for palomad launched as a service)
 
@@ -47,7 +47,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="cafeaa85246658628b68104314871367127f9ae2@rpc2.bonded.zone:21556"
+peers="22363c50e4fcc75084d927f150636048c66b85c2@rpc2.bonded.zone:21556"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.paloma/config/config.toml
 ```
 

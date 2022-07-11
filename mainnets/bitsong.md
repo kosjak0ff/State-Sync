@@ -4,9 +4,9 @@ cover: https://pbs.twimg.com/profile_banners/949260226829660162/1643823516/1500x
 coverY: 94.35797665369651
 ---
 
-# Bitsong
+# BitSong
 
-for _version <mark style="color:red;">v0.10.0</mark>_
+for _version <mark style="color:red;">v0.11.0</mark>_
 
 stop the node and reset (this command is for bitsongd launched as a service)
 

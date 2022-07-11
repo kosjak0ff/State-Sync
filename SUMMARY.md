@@ -2,7 +2,7 @@
 
 * [⛓ Mainnets](README.md)
   * [Bitcanna](mainnets/bitcanna.md)
-  * [Bitsong](mainnets/bitsong.md)
+  * [BitSong](mainnets/bitsong.md)
   * [Chronic Token](mainnets/chronic-token.md)
   * [Desmos](mainnets/desmos.md)
   * [Galaxy](mainnets/galaxy.md)

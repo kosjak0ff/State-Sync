@@ -1,5 +1,5 @@
 ---
-description: sei-testnet-2
+description: atlantic-1
 cover: https://pbs.twimg.com/profile_banners/1515104342906327045/1655924054/1500x500
 coverY: 22.373540856031127
 ---
@@ -9,16 +9,6 @@ coverY: 22.373540856031127
 <mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to download updated wasm folder**</mark>
 
 _<mark style="color:red;">for version 1.0.6beta</mark>_
-
-stop the node and reset (this command is for seid launched as a service)
-
-```bash
-sudo systemctl stop seid && seid unsafe-reset-all
-```
-
-<mark style="background-color:red;">if you get error, try:</mark>
-
-_<mark style="background-color:red;">seid tendermint unsafe-reset-all</mark>_
 
 set variable to bonded.zone RPC
 
@@ -44,12 +34,24 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 
 if output is something like this one, then continue to the next step
 
-1769362 1768362 311AFA4925B213B366879589640F4CA03CCB58841DBE2CE85A7FC1D19BBEB909
+_1769362 1768362 311AFA4925B213B366879589640F4CA03CCB58841DBE2CE85A7FC1D19BBEB909_
+
+
+
+stop the node and reset (this command is for seid launched as a service)
+
+```bash
+sudo systemctl stop seid && seid unsafe-reset-all
+```
+
+<mark style="background-color:red;">if you get error, try:</mark>
+
+_<mark style="background-color:red;">seid tendermint unsafe-reset-all</mark>_
 
 configure persistent peers
 
 ```bash
-peers="257af61598dd3ce190bd7da84c6bcfeb5cbe9a99@rpc2.bonded.zone:21156"
+peers="3f6e68bd476a7cd3f491105da50306f8ebb74643@rpc2.bonded.zone:21156"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.sei/config/config.toml
 ```
 

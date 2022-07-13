@@ -45,7 +45,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="f1cd1d30c51ea1f1431d7da718f923f6c70ebc80@rpc2.bonded.zone:20156"
+peers="520632a028527a00f4147ea955edd54484e1ba74@rpc2.bonded.zone:20156"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.stride/config/config.toml
 ```
 

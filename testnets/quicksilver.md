@@ -6,7 +6,7 @@ coverY: -215.9533073929961
 
 # Quicksilver
 
-_for version <mark style="color:red;">v0.4.1</mark>_
+_for version <mark style="color:red;">v0.4.2</mark>_
 
 stop the node and reset (this command is for quicksilverd launched as a service)
 

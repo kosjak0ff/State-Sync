@@ -8,20 +8,8 @@ coverY: 0
 
 #### powered by [DVS](https://validators.network/)
 
-{% content-ref url="aura.md" %}
-[aura.md](aura.md)
-{% endcontent-ref %}
-
-{% content-ref url="celestia.md" %}
-[celestia.md](celestia.md)
-{% endcontent-ref %}
-
 {% content-ref url="clan.md" %}
 [clan.md](clan.md)
-{% endcontent-ref %}
-
-{% content-ref url="defund.md" %}
-[defund.md](defund.md)
 {% endcontent-ref %}
 
 {% content-ref url="dws.md" %}
@@ -30,10 +18,6 @@ coverY: 0
 
 {% content-ref url="ica.md" %}
 [ica.md](ica.md)
-{% endcontent-ref %}
-
-{% content-ref url="paloma.md" %}
-[paloma.md](paloma.md)
 {% endcontent-ref %}
 
 {% content-ref url="quicksilver.md" %}

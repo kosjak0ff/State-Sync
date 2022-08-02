@@ -10,8 +10,5 @@
 * [⛓ Testnets](testnets/README.md)
   * [Clan](testnets/clan.md)
   * [DWS](testnets/dws.md)
-  * [Ica](testnets/ica.md)
-  * [Quicksilver](testnets/quicksilver.md)
   * [Sei](testnets/sei.md)
-  * [Stride](testnets/stride.md)
   * [Uptick](testnets/uptick.md)

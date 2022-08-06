@@ -8,12 +8,6 @@ coverY: 0
 
 for _version <mark style="color:red;">v0.3.0</mark>_
 
-stop the node and reset (this command is for rizond launched as a service)
-
-```bash
-sudo systemctl stop rizond && rizond unsafe-reset-all
-```
-
 set variable to bonded.zone RPC
 
 ```bash
@@ -57,14 +51,14 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.rizon/config/config.toml
 ```
 
-start the node (this command is for rizond launched as a service)
+stop and reset the node (this command is for rizond launched as a service)
 
 ```bash
-sudo systemctl restart rizond
+sudo systemctl stop rizond && rizond unsafe-reset-all
 ```
 
-check logs
+start the node and check logs (this command is for rizond launched as a service)
 
 ```bash
-sudo journalctl -u rizond -f --no-hostname -o cat
+sudo systemctl restart rizond && sudo journalctl -u rizond -f -o cat
 ```

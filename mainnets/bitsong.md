@@ -8,12 +8,6 @@ coverY: 94.35797665369651
 
 for _version <mark style="color:red;">v0.11.0</mark>_
 
-stop the node and reset (this command is for bitsongd launched as a service)
-
-```bash
-sudo systemctl stop bitsongd && bitsongd unsafe-reset-all
-```
-
 set variable to bonded.zone RPC
 
 ```bash
@@ -57,14 +51,14 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.bitsongd/config/config.toml
 ```
 
-start the node (this command is for bitsongd launched as a service)
+stop and reset the node (this command is for bitsongd launched as a service)&#x20;
 
 ```bash
-sudo systemctl restart bitsongd
+sudo systemctl stop bitsongd && bitsongd tendermint unsafe-reset-all --home $HOME/.bitsongd --keep-addr-book
 ```
 
-check logs
+start the node and check logs (this command is for bitsongd launched as a service)
 
 ```bash
-sudo journalctl -u bitsongd -f --no-hostname -o cat
+sudo systemctl restart bitsongd && sudo journalctl -u bitsongd -f -o cat
 ```

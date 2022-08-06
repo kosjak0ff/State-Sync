@@ -8,12 +8,6 @@ coverY: 0
 
 
 
-stop the node and reset (this command is for chtd launched as a service)
-
-```bash
-sudo systemctl stop chtd && chtd unsafe-reset-all
-```
-
 set variable to bonded.zone RPC
 
 ```bash
@@ -57,14 +51,14 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.cht/config/config.toml
 ```
 
-start the node (this command is for chtd launched as a service)
+stop and reset the node (this command is for chtd launched as a service)
 
 ```bash
-sudo systemctl restart chtd
+sudo systemctl stop chtd && chtd unsafe-reset-all
 ```
 
-check logs
+start the node and check logs (this command is for chtd launched as a service)
 
 ```bash
-sudo journalctl -u chtd -f --no-hostname -o cat
+sudo systemctl restart chtd && sudo journalctl -u chtd -f -o cat
 ```

@@ -8,12 +8,6 @@ coverY: 0
 
 _for version <mark style="color:red;">v.1.3.1</mark>_
 
-stop the node and reset (this command is for bcnad launched as a service)
-
-```bash
-sudo systemctl stop bcnad && bcnad unsafe-reset-all
-```
-
 set variable to bonded.zone RPC
 
 ```bash
@@ -57,14 +51,14 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.bcna/config/config.toml
 ```
 
-start the node (this command is for bcnad launched as a service)
+stop the node and reset (this command is for bcnad launched as a service)
 
 ```bash
-sudo systemctl restart bcnad
+sudo systemctl stop bcnad && bcnad unsafe-reset-all
 ```
 
-check logs
+start the node and check logs (this command is for bcnad launched as a service) and check logs
 
 ```bash
-sudo journalctl -u bcnad -f --no-hostname -o cat
+sudo systemctl restart bcnad && sudo journalctl -u bcnad -f -o cat
 ```

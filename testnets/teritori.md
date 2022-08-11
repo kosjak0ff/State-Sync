@@ -4,9 +4,7 @@ description: teritori-testnet-v2
 
 # Teritori
 
-<mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to save or download  updated wasm folder**</mark>
-
-<mark style="color:red;">****</mark>
+<mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to save or download updated wasm folder**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**"$HOME/.teritorid/data/wasm/"**</mark>_
 
 set variable to bonded.zone RPC
 

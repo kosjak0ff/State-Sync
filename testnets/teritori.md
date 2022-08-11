@@ -1,5 +1,7 @@
 ---
 description: teritori-testnet-v2
+cover: https://pbs.twimg.com/profile_banners/1530604059715149830/1657640434/1500x500
+coverY: 41.82879377431907
 ---
 
 # Teritori

@@ -6,7 +6,7 @@ coverY: 0
 
 # Bitcanna
 
-_for version <mark style="color:red;">v.1.3.1</mark>_
+_for version <mark style="color:red;">v.1.4.1</mark>_
 
 set variable to bonded.zone RPC
 

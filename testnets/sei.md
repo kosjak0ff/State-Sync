@@ -1,5 +1,7 @@
 ---
 description: atlantic-sub-1
+cover: https://pbs.twimg.com/profile_banners/1515104342906327045/1655924054/1500x500
+coverY: 17.509727626459142
 ---
 
 # Sei

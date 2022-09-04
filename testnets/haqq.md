@@ -1,5 +1,7 @@
 ---
 description: haqq_53211-1
+cover: https://pbs.twimg.com/profile_banners/1518783995101724672/1651040481/1500x500
+coverY: -65.1750972762646
 ---
 
 # Haqq

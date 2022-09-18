@@ -7,7 +7,7 @@ coverY: 17.509727626459142
 # Sei
 
 <mark style="color:orange;">**ONLY FOR atlantic-sub-1**</mark>\
-for _version <mark style="color:red;">v1.1.2beta-internal</mark>_
+for _version <mark style="color:red;">v1.2.0beta</mark>_
 
 set RPC variable to bonded.zone RPC
 

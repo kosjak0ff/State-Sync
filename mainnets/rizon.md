@@ -6,7 +6,7 @@ coverY: 0
 
 # Rizon
 
-for _version <mark style="color:red;">v0.3.0</mark>_
+for _version <mark style="color:red;">v0.4.0</mark>_
 
 set variable to bonded.zone RPC
 

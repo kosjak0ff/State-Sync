@@ -1,5 +1,5 @@
 ---
-description: haqq_53211-1
+description: haqq_54211-2
 cover: https://pbs.twimg.com/profile_banners/1518783995101724672/1651040481/1500x500
 coverY: -65.1750972762646
 ---
@@ -11,7 +11,7 @@ _for version <mark style="color:red;">1.0.3</mark>_
 set RPC variable to bonded.zone RPC
 
 ```bash
-RPC="http://wisdom.bonded.zone:26857"
+RPC="http://rpc2.bonded.zone:26057"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -37,7 +37,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="bf76464aacf4e4b15dec3b230fdc322f9222cb87@wisdom.bonded.zone:26856"
+peers="dcb528a3c79ccdd526c331ce0df89142173015d6@rpc2.bonded.zone:26056"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.haqqd/config/config.toml
 ```
 

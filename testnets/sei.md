@@ -1,12 +1,11 @@
 ---
-description: atlantic-sub-1
+description: atlantic-1
 cover: https://pbs.twimg.com/profile_banners/1515104342906327045/1655924054/1500x500
 coverY: 17.509727626459142
 ---
 
 # Sei
 
-<mark style="color:orange;">**ONLY FOR atlantic-sub-1**</mark>\
 for _version <mark style="color:red;">v1.2.0beta</mark>_
 
 set RPC variable to bonded.zone RPC
@@ -38,7 +37,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="9042230935e18ddddbf20a0048424dd7d9f933af@wisdom.bonded.zone:28056"
+peers="3f6e68bd476a7cd3f491105da50306f8ebb74643@wisdom.bonded.zone:28056"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.sei/config/config.toml
 ```
 

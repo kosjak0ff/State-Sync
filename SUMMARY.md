@@ -11,7 +11,5 @@
   * [Clan](testnets/clan.md)
   * [DWS](testnets/dws.md)
   * [Haqq](testnets/haqq.md)
-  * [Rebus](testnets/rebus.md)
   * [Sei](testnets/sei.md)
   * [Teritori](testnets/teritori.md)
-  * [Uptick](testnets/uptick.md)

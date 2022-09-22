@@ -20,18 +20,10 @@ coverY: 0
 [haqq.md](haqq.md)
 {% endcontent-ref %}
 
-{% content-ref url="rebus.md" %}
-[rebus.md](rebus.md)
-{% endcontent-ref %}
-
 {% content-ref url="sei.md" %}
 [sei.md](sei.md)
 {% endcontent-ref %}
 
 {% content-ref url="teritori.md" %}
 [teritori.md](teritori.md)
-{% endcontent-ref %}
-
-{% content-ref url="uptick.md" %}
-[uptick.md](uptick.md)
 {% endcontent-ref %}

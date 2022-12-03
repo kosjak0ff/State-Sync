@@ -6,12 +6,12 @@ coverY: 0
 
 # Bitcanna
 
-_for version <mark style="color:red;">v.1.4.2</mark>_
+_for version <mark style="color:red;">v.1.5.3</mark>_
 
 set variable to bonded.zone RPC
 
 ```bash
-RPC="http://wisdom.bonded.zone:20257"
+RPC="http://team.bonded.zone:21957"
 ```
 
 set variables $LATEST\_HEIGHT $BLOCK\_HEIGHT $TRUST\_HASH
@@ -37,7 +37,7 @@ if output is something like this one, then continue to the next step
 configure persistent peers
 
 ```bash
-peers="8d30fc066da3161ec6dc92d50d0c035364155e11@wisdom.bonded.zone:20256"
+peers="9532a13b05e5f68f2ca01f90b3d1ba9a762af817@team.bonded.zone:21956"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
 ```
 

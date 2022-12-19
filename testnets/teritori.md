@@ -8,7 +8,7 @@ coverY: 41.82879377431907
 
 <mark style="color:red;">**Attention!**</mark>\ <mark style="color:red;">**With state-synced validator may not work cosmwasm txs!**</mark>\ <mark style="color:red;">**Need to save or download updated wasm folder**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**"$HOME/.teritorid/data/wasm/"**</mark>_
 
-set variable to bonded.zone RPC
+set variable to bonded.zone <mark style="color:blue;background-color:orange;">RPC</mark>
 
 ```bash
 RPC="http://rpc2.bonded.zone:20957"
